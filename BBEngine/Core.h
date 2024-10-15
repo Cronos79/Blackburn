@@ -11,6 +11,7 @@
 #include <functional>
 #include <filesystem>
 #include <unordered_map>
+#include <stdint.h>
 
 // import export
 #if BB_EXPORT

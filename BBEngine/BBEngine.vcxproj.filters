@@ -27,6 +27,9 @@
     <ClInclude Include="Interface.h">
       <Filter>src\Application</Filter>
     </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>src\Common</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BlackBurn.cpp">

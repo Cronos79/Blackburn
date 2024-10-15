@@ -90,6 +90,7 @@
     <ClInclude Include="BlackBurn.h" />
     <ClInclude Include="Context.h" />
     <ClInclude Include="Core.h" />
+    <ClInclude Include="Event.h" />
     <ClInclude Include="Interface.h" />
   </ItemGroup>
   <ItemGroup>

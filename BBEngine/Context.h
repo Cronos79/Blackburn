@@ -1,5 +1,6 @@
 #pragma once
 #include "Core.h"
+#include "Event.h"
 
 namespace BB
 {
@@ -16,5 +17,7 @@ namespace BB
 		}
 
 		std::vector<AppInterface*> Layers;
+
+		EventDispatcher Dispatcher;
 	};
 }

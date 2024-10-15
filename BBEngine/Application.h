@@ -20,6 +20,8 @@ namespace BB
 		{
 			while (true)
 			{
+				m_Context->Dispatcher.PollEvents();
+
 				for (auto& layer : m_Context->Layers)
 				{
 					layer->OnUpdate();
