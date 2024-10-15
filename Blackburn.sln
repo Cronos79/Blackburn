@@ -5,22 +5,28 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BBEngine", "BBEngine\BBEngine.vcxproj", "{63E20DBE-2184-4258-BEC4-B3523D8B7DD7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BBEditor", "BBEditor\BBEditor.vcxproj", "{DA0F9944-F57A-4C79-87A7-84858BC2496E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BBGame", "BBGame\BBGame.vcxproj", "{BBE77C4A-8A40-41A2-B5C0-FA745C8BAB60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
 		Release|x64 = Release|x64
-		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{63E20DBE-2184-4258-BEC4-B3523D8B7DD7}.Debug|x64.ActiveCfg = Debug|x64
 		{63E20DBE-2184-4258-BEC4-B3523D8B7DD7}.Debug|x64.Build.0 = Debug|x64
-		{63E20DBE-2184-4258-BEC4-B3523D8B7DD7}.Debug|x86.ActiveCfg = Debug|Win32
-		{63E20DBE-2184-4258-BEC4-B3523D8B7DD7}.Debug|x86.Build.0 = Debug|Win32
 		{63E20DBE-2184-4258-BEC4-B3523D8B7DD7}.Release|x64.ActiveCfg = Release|x64
 		{63E20DBE-2184-4258-BEC4-B3523D8B7DD7}.Release|x64.Build.0 = Release|x64
-		{63E20DBE-2184-4258-BEC4-B3523D8B7DD7}.Release|x86.ActiveCfg = Release|Win32
-		{63E20DBE-2184-4258-BEC4-B3523D8B7DD7}.Release|x86.Build.0 = Release|Win32
+		{DA0F9944-F57A-4C79-87A7-84858BC2496E}.Debug|x64.ActiveCfg = Debug|x64
+		{DA0F9944-F57A-4C79-87A7-84858BC2496E}.Debug|x64.Build.0 = Debug|x64
+		{DA0F9944-F57A-4C79-87A7-84858BC2496E}.Release|x64.ActiveCfg = Release|x64
+		{DA0F9944-F57A-4C79-87A7-84858BC2496E}.Release|x64.Build.0 = Release|x64
+		{BBE77C4A-8A40-41A2-B5C0-FA745C8BAB60}.Debug|x64.ActiveCfg = Debug|x64
+		{BBE77C4A-8A40-41A2-B5C0-FA745C8BAB60}.Debug|x64.Build.0 = Debug|x64
+		{BBE77C4A-8A40-41A2-B5C0-FA745C8BAB60}.Release|x64.ActiveCfg = Release|x64
+		{BBE77C4A-8A40-41A2-B5C0-FA745C8BAB60}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

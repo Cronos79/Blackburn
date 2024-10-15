@@ -4,5 +4,33 @@
     <Filter Include="src">
       <UniqueIdentifier>{8c23a0de-4c41-4009-9153-04f965da0693}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\Common">
+      <UniqueIdentifier>{622dc033-f515-4f0f-b65b-3f05f2ad4e3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Application">
+      <UniqueIdentifier>{2d4ee0e1-d325-438a-9af4-dfeb34c5c4a8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core.h">
+      <Filter>src\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackBurn.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>src\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Context.h">
+      <Filter>src\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>src\Application</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BlackBurn.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
