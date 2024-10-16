@@ -10,6 +10,12 @@
     <Filter Include="src\Application">
       <UniqueIdentifier>{2d4ee0e1-d325-438a-9af4-dfeb34c5c4a8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\Windows">
+      <UniqueIdentifier>{034c708a-ad9a-4011-a122-005034e5a7d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game">
+      <UniqueIdentifier>{0d5d68bd-be28-4dab-b345-fbc58dd765fa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Core.h">
@@ -30,10 +36,49 @@
     <ClInclude Include="Event.h">
       <Filter>src\Common</Filter>
     </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>src\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>src\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="BBWindow.h">
+      <Filter>src\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="BBException.h">
+      <Filter>src\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BBLog.h">
+      <Filter>src\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BBObject.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="BBGameObject.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BlackBurn.cpp">
       <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>src\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>src\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="BBWindow.cpp">
+      <Filter>src\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="BBException.cpp">
+      <Filter>src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="BBLog.cpp">
+      <Filter>src\Common</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

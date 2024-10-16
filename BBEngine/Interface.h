@@ -1,5 +1,6 @@
 #pragma once
 #include "Context.h"
+#include "BBLog.h"
 
 namespace BB
 {
@@ -8,8 +9,8 @@ namespace BB
 		inline virtual ~AppInterface() = default;
 
 	protected:
-		inline virtual void OnUpdate() {}
-		inline virtual void OnAttach() {}
+		inline virtual void OnUpdate() {};
+		inline virtual void OnAttach() {};
 		inline virtual void OnDetach() {}
 
 	private:
@@ -69,6 +70,7 @@ namespace BB
 						{
 							if (layer->m_LayerID == TypeID<Layer>())
 							{
+								layer->OnDetach();
 								m_Context->Dispatcher.EraseListener(layer->m_LayerID);
 								BB_DELETE(layer);
 								return true;
